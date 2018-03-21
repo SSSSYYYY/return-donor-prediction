@@ -1,6 +1,6 @@
 #Load data
 SET.SEED(200)
-train=read.csv(file="/Users/project/Blood Donation Modeling/train.csv", header=TRUE, sep=",")
+train=read.csv(file="/Users/yangshenyang/Desktop/untitled folder/case comp/train.csv", header=TRUE, sep=",")
 str(train)
 names(train)
 # Subset the attitude data
